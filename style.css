@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Merriweather:ital,wght@1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("winter.jpeg");
+    font-family: 'Handlee', cursive;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    color: wheat;
+}
+h1{
+    font-size: 4rem;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 2rem;
+}
+.countdown-el {
+    text-align: center;
+}
+.countdown-el span{
+     font-size: 1.5rem;
+}
